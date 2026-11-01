@@ -1,6 +1,6 @@
 // Cache-first app shell; network fills cache on first visit.
-const CACHE = 'palace-v8';
-const ASSETS = ["./assets/index-ams5G6sh.css","./assets/index-D3_0acM3.js","./assets/view3d-yz75ko5v.js","./assets/maker3d-B0KU9m3k.js","./assets/xr-_wQkebqq.js","./assets/three.module-DZSBX__W.js","./assets/post-CAzRs-uZ.js","./index.html"]; // filled at build time (vite.config.ts)
+const CACHE = 'palace-v9';
+const ASSETS = ["./assets/index-ams5G6sh.css","./assets/index-f98edFYu.js","./assets/view3d-B-Id7HFW.js","./assets/maker3d-DTJElqJC.js","./assets/xr-DGmgorLb.js","./assets/three.module-DaJnxDS_.js","./assets/post-BBtaSTw7.js","./index.html"]; // filled at build time (vite.config.ts)
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c => c.addAll([...new Set(['./', './index.html', './manifest.webmanifest', './icon.svg', './scan-sample.svg', ...ASSETS])]))); });
 self.addEventListener('activate', e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', e => {

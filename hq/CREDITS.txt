@@ -1,4 +1,16 @@
-Detailed 3D assets in this folder are from Poly Haven (https://polyhaven.com), released under CC0 (public domain, no attribution required).
-Models: Television_01 WoodenChair_01 WoodenTable_01 electric_stove food_apple_01 metal_office_desk modern_wooden_cabinet old_bed_frame rubber_duck_toy sofa_02 wooden_bookshelf_worn 
-Textures: laminate_floor_02, floor_tiles_06, dirty_carpet, stone_tiles, smooth_concrete_floor, white_plaster_02
-HDRI: brown_photostudio_02
+All detailed 3D assets in this folder are CC0 (public domain, no attribution required). Thanks anyway:
+
+Poly Haven (https://polyhaven.com), CC0:
+  Models: Television_01 WoodenChair_01 WoodenTable_01 electric_stove food_apple_01 metal_office_desk modern_wooden_cabinet
+          rubber_duck_toy sofa_02 wooden_bookshelf_worn potted_plant_02 standing_picture_frame_01 mantel_clock_01
+          horse_statue_01 dirty_football fishermans_hat strawberry_chocolate_cake
+  Textures: laminate_floor_02, floor_tiles_06, dirty_carpet, stone_tiles, smooth_concrete_floor, white_plaster_02 (normal map only on walls)
+  HDRI: brown_photostudio_02
+
+Kenney (https://kenney.nl), CC0 (files prefixed k_):
+  Furniture Kit: k_bed (bedDouble), k_toilet, k_bathtub, k_sink (bathroomSink), k_fridge (kitchenFridgeLarge),
+                 k_lamp_floor (lampSquareFloor), k_lamp_table (lampRoundTable), k_rug (rugRectangle), k_books (books)
+  Car Kit: k_car (sedan)   Food Kit: k_pizza (pizza)   Cube Pets: k_cat, k_dog   Mini Dungeon: k_sword (weapon-sword)
+  Nature Kit: k_tree (tree_oak, recoloured at load)
+
+All models were re-compressed with glTF-Transform (meshopt geometry, WebP textures at 512 px, some simplified).
