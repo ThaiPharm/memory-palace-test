@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+<rect width="1600" height="1200" fill="#ddd6c8"/>
+<polygon points="615.9,324.4 1065.6,322.8 1269.6,278.3 288.8,285.6" fill="#f4f1ea" />
+<polygon points="627.5,602.5 615.9,324.4 288.8,285.6 353.1,845.8" fill="#d9d2c3" />
+<polygon points="1048.1,612.7 1065.6,322.8 1269.6,278.3 1205.4,888" fill="#cfc7b6" />
+<polygon points="627.5,602.5 1048.1,612.7 1065.6,322.8 615.9,324.4" fill="#e6dfd0" />
+<polygon points="627.5,602.5 1048.1,612.7 1205.4,888 353.1,845.8" fill="#c4955f" />
+<line x1="652.8" y1="603.2" x2="402.4" y2="848.3" stroke="#a87a4f" stroke-width="2"/>
+<line x1="678.2" y1="603.8" x2="452.1" y2="850.7" stroke="#a87a4f" stroke-width="2"/>
+<line x1="703.8" y1="604.4" x2="502.4" y2="853.2" stroke="#a87a4f" stroke-width="2"/>
+<line x1="729.5" y1="605" x2="553.2" y2="855.7" stroke="#a87a4f" stroke-width="2"/>
+<line x1="755.3" y1="605.6" x2="604.5" y2="858.3" stroke="#a87a4f" stroke-width="2"/>
+<line x1="781.2" y1="606.3" x2="656.3" y2="860.8" stroke="#a87a4f" stroke-width="2"/>
+<line x1="807.3" y1="606.9" x2="708.7" y2="863.4" stroke="#a87a4f" stroke-width="2"/>
+<line x1="833.5" y1="607.5" x2="761.6" y2="866.1" stroke="#a87a4f" stroke-width="2"/>
+<line x1="859.9" y1="608.1" x2="815" y2="868.7" stroke="#a87a4f" stroke-width="2"/>
+<line x1="886.4" y1="608.8" x2="869" y2="871.4" stroke="#a87a4f" stroke-width="2"/>
+<line x1="913" y1="609.4" x2="923.6" y2="874.1" stroke="#a87a4f" stroke-width="2"/>
+<line x1="939.7" y1="610.1" x2="978.8" y2="876.8" stroke="#a87a4f" stroke-width="2"/>
+<line x1="966.6" y1="610.7" x2="1034.5" y2="879.6" stroke="#a87a4f" stroke-width="2"/>
+<line x1="993.7" y1="611.4" x2="1090.9" y2="882.4" stroke="#a87a4f" stroke-width="2"/>
+<line x1="1020.8" y1="612" x2="1147.8" y2="885.2" stroke="#a87a4f" stroke-width="2"/>
+<polygon points="750.1,605.5 844.1,607.8 846.4,386.9 747.5,386.6" fill="#8a5a34" />
+<circle cx="829" cy="502.7" r="7" fill="#e0c060"/>
+<polygon points="1076,540 1086.2,385.2 1125.6,391 1111.7,577.3" fill="#a9d4ef" stroke="#fff" stroke-width="8"/>
+<polygon points="630.6,630.5 628.3,574.3 548.3,637.2 552.7,708.4" fill="#6b7fa3" />
+<polygon points="594.2,573.5 628.3,574.3 548.3,637.2 504.7,635.9" fill="#8195b8" />
+<text x="30" y="1170" font-family="sans-serif" font-size="28" fill="#555">Sample room photo (synthetic, 4 × 5 m, door 0.9 m)</text>
+</svg>
