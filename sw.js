@@ -1,6 +1,6 @@
 // Cache-first app shell; network fills cache on first visit.
-const CACHE = 'palace-v12';
-const ASSETS = ["./assets/pdf.worker.min-yatZIOMy.mjs","./assets/index-BR4QSmmd.css","./assets/index-DN5XntY-.js","./assets/view3d-DWJD1Y4c.js","./assets/maker3d-DaUckpO3.js","./assets/xr-DAWxguEP.js","./assets/three.module-DaJnxDS_.js","./assets/pdf-BnPRJEQ6.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/index-CvSeWqE7.js","./assets/post-BBtaSTw7.js","./index.html"]; // filled at build time (vite.config.ts)
+const CACHE = 'palace-v13';
+const ASSETS = ["./assets/pdf.worker.min-yatZIOMy.mjs","./assets/index-8XTfljyU.css","./assets/index-BBo3Nd4F.js","./assets/view3d-C5LPR7mT.js","./assets/maker3d-DsV4w2XT.js","./assets/xr-xuZv2Fy3.js","./assets/three.module-DaJnxDS_.js","./assets/pdf-BnPRJEQ6.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/index-CvSeWqE7.js","./assets/post-BBtaSTw7.js","./index.html"]; // filled at build time (vite.config.ts)
 self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c => c.addAll([...new Set(['./', './index.html', './manifest.webmanifest', './icon.svg', './scan-sample.svg', ...ASSETS])]))); });
 self.addEventListener('activate', e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', e => {
