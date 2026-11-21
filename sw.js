@@ -1,7 +1,7 @@
 // Cache-first hashed assets; network-first HTML so a deploy is picked up.
 // Never fall back to index.html for missing JS/CSS (that used to break 3D after an update).
-const CACHE = 'palace-v21';
-const ASSETS = ["./assets/pdf.worker.min-yatZIOMy.mjs","./assets/index-ptlEfgDW.css","./assets/index-DifJm2OT.js","./assets/view3d-DCDdfvAH.js","./assets/maker3d-GFMw9EjI.js","./assets/xr-D1UvCkEt.js","./assets/three.module-BhWlfGBC.js","./assets/pdf-BnPRJEQ6.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/index-CvSeWqE7.js","./assets/post-DSh5qOoY.js","./index.html"]; // filled at build time (vite.config.ts)
+const CACHE = 'palace-v22';
+const ASSETS = ["./assets/pdf.worker.min-yatZIOMy.mjs","./assets/index-ptlEfgDW.css","./assets/index-BrLylgtu.js","./assets/view3d-Cd4ap6Ez.js","./assets/maker3d-ab6EqbMc.js","./assets/xr-CUtpnnZc.js","./assets/three.module-Bk48T075.js","./assets/pdf-BnPRJEQ6.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/index-CvSeWqE7.js","./assets/post-CZx95kD6.js","./index.html"]; // filled at build time (vite.config.ts)
 
 function isNavigation(req) {
   if (req.mode === 'navigate' || req.destination === 'document') return true;
