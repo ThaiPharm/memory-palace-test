@@ -5,7 +5,12 @@ Poly Haven (https://polyhaven.com), CC0:
           rubber_duck_toy sofa_02 wooden_bookshelf_worn potted_plant_02 standing_picture_frame_01 mantel_clock_01
           horse_statue_01 dirty_football fishermans_hat strawberry_chocolate_cake
           GothicBed_01 ClassicNightstand_01 book_encyclopedia_set_01 desk_lamp_arm_01 wooden_handle_saber
-  Textures: laminate_floor_02, floor_tiles_06, dirty_carpet, stone_tiles, smooth_concrete_floor, white_plaster_02 (normal map only on walls)
+  Textures: laminate_floor, laminate_floor_02, oak_wood_planks, plank_flooring_04, wood_planks_grey,
+            large_floor_tiles_02, herringbone_parquet, stone_tiles, concrete_floor_worn_001,
+            smooth_concrete_floor, floor_tiles_06, dirty_carpet, white_plaster_02 (normal map only on walls)
+  ambientCG (https://ambientcg.com), CC0:
+  Textures: Carpet014 (beige carpet), Marble012 (white veined marble)
+  Wood-look tile is oak_wood_planks with a generated 60 cm grout grid.
   HDRI: brown_photostudio_02
 
 Bathroom fixtures, floor lamps, rugs, fridges, people and crowns have no matching realistic CC0 model here yet;
