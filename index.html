@@ -3,13 +3,24 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="theme-color" content="#3b3a36" />
+<meta name="theme-color" content="#12101c" />
 <link rel="manifest" href="./manifest.webmanifest" />
+<script>
+(function(){
+  var p='dark';
+  try { p=localStorage.getItem('memory-palace:theme')||'dark'; } catch(e) {}
+  var sys=false;
+  try { sys=matchMedia('(prefers-color-scheme: dark)').matches; } catch(e) {}
+  var t=p==='auto'?(sys?'dark':'light'):(p==='light'?'light':'dark');
+  document.documentElement.setAttribute('data-theme', t);
+  document.documentElement.style.colorScheme=t;
+})();
+</script>
 <link rel="icon" href="./icon.svg" />
 <link rel="apple-touch-icon" href="./icon-192.png" />
 <title>Memory Palace</title>
-  <script type="module" crossorigin src="./assets/index-BrLylgtu.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-ptlEfgDW.css">
+  <script type="module" crossorigin src="./assets/index-DpHdPPm5.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-C6PRrEOz.css">
 </head>
 <body>
 <div id="app"></div>
