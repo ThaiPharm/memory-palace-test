@@ -1,7 +1,7 @@
 // Cache-first hashed assets; network-first HTML so a deploy is picked up.
 // Never fall back to index.html for missing JS/CSS (that used to break 3D after an update).
-const CACHE = 'palace-v26';
-const ASSETS = ["./assets/pdf.worker.min-yatZIOMy.mjs","./assets/index-sB-r5vl3.css","./assets/index-D3LXs4Wj.js","./assets/view3d-BUSBVPBI.js","./assets/maker3d-BoJzufUX.js","./assets/xr-0gsvleI5.js","./assets/three.module-Bk48T075.js","./assets/pdf-BnPRJEQ6.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/index-CvSeWqE7.js","./assets/post-igcnGAPl.js","./index.html"]; // filled at build time (vite.config.ts)
+const CACHE = 'palace-v27';
+const ASSETS = ["./assets/pdf.worker.min-yatZIOMy.mjs","./assets/index-BJ1OsXm4.css","./assets/index-Bopk1UeF.js","./assets/view3d-DQ_KhRRH.js","./assets/maker3d-ePvAFf5N.js","./assets/xr-Co3QO5O0.js","./assets/three.module-C5SW4t2S.js","./assets/pdf-BnPRJEQ6.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/index-CvSeWqE7.js","./assets/post-BGl-exU4.js","./index.html"]; // filled at build time (vite.config.ts)
 
 function isNavigation(req) {
   if (req.mode === 'navigate' || req.destination === 'document') return true;
@@ -9,7 +9,7 @@ function isNavigation(req) {
   catch { return false; }
 }
 
-self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c => c.addAll([...new Set(['./', './index.html', './manifest.webmanifest', './icon.svg', './scan-sample.svg', ...ASSETS])]))); });
+self.addEventListener('install', e => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then(c => c.addAll([...new Set(['./', './index.html', './manifest.webmanifest', './icon.svg', './scan-sample.svg', './samples/scan-two-rooms.obj', './samples/roomplan-room.usdz', './samples/walk-through.mp4', ...ASSETS])]))); });
 self.addEventListener('activate', e => e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET' || !e.request.url.startsWith(self.location.origin)) return;
